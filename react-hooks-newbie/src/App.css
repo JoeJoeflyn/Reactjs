@@ -1,0 +1,51 @@
+.writedown-infor{
+  min-height: 100vh;
+  width: 100%;
+  background: lightblue;
+  text-align: center;
+  overflow: hidden;
+}
+
+.Name{
+  width: 50%;
+  padding: 10px ;
+  border-radius: 10px;
+  outline: unset;
+}
+
+.btn{
+  display: inline;
+  margin: auto;
+  background-color: rgb(158, 112, 100);
+}
+.todo-input{
+  padding: 10px;
+  margin: 10px;
+  outline: none;
+}
+.todo-button{
+  padding: 10px;
+  margin: 10px;
+  color: blue;
+  background-color: white;
+  border-style: none;
+}
+.todo-button:hover{
+  cursor: pointer;
+  opacity: 0.75;
+}
+.me{
+  background-color: white;
+  border: 1px solid black;
+  margin-right: 10px;
+  list-style: none;
+  display:inline-block;
+  width: 25%;
+}
+.completed{
+  text-decoration: line-through;
+  color: red;
+}
+.to-do{
+  display: inline;
+}
